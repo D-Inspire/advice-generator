@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: hsl(218, 23%, 16%);
+  overflow: hidden;
+}
+.container{
+  /* width: 400px; */
+  height: fit-content;
+  padding: 35px 70px 50px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: hsl(217, 19%, 24%);
+  position: relative;
+  border-radius: 20px;
+}
+.container>span{
+  color: hsl(150, 100%, 66%);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+}
+
+.dice_box{
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background-color: hsl(150, 82%, 70%);
+  position: absolute;
+  bottom: -35px;
+}
+.dice_box:hover{
+  box-shadow: 1px 1px 20px rgba(116, 241, 179,0.3),1px -1px 20px rgba(116, 241, 179,0.3),-1px 1px 20px rgba(116, 241, 179,0.3),-1px -1px 20px rgba(116, 241, 179,0.3);
+}
