@@ -1,4 +1,4 @@
-import './Quote.css'
+import './quote.css'
 
 export default function Quote(){
     return (
