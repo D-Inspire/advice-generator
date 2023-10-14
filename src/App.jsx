@@ -11,7 +11,7 @@ function App() {
       <Quote/>
       <PauseLine/>
         <div className='dice_box'>
-          <img src="/followCome/images/iconDice.svg" alt="icon dice" />
+          <img src="../followCome/images/iconDice.svg" alt="icon dice" />
         </div>
     </div>
   )
