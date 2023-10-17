@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import dice from "./images/iconDice.svg"
 import Quote from './MyComponents/quote.jsx'
 import PauseLine from './MyComponents/pause.jsx'
 function App() {
@@ -11,7 +12,7 @@ function App() {
       <Quote/>
       <PauseLine/>
         <div className='dice_box'>
-          <img src="../followCome/images/iconDice.svg" alt="icon dice" />
+          <img src={dice} alt="icon dice" />
         </div>
     </div>
   )
